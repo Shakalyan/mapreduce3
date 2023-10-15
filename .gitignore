@@ -1,0 +1,3 @@
+mapreduce/_*
+mapreduce/test*
+mapreduce/jobs/__pycache__
