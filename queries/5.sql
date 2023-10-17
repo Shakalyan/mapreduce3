@@ -1,2 +1,2 @@
--- Products ordered by price
+-- All products
 select * from products;
