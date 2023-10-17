@@ -43,3 +43,7 @@ def retrieve_tag_and_tuple(tagged_tuple):
     tag = tagged_tuple[:space_idx]
     tuple = tagged_tuple[space_idx+1:]
     return tag, tuple
+
+
+def agg_func(values):
+    return str(sum(map(int, values)))
